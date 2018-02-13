@@ -6,6 +6,8 @@ import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
 import { Route, Link } from 'react-router-dom';
 
+
+
 class App extends Component {
   render() {
     return (
