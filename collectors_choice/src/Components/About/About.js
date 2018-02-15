@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './About.css';
 
 
-export default class About_us extends Component{
+export default class About extends Component{
     render () {
         return(
             <div>
