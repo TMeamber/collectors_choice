@@ -7,12 +7,12 @@ export default class Products extends Component{
         return(
             <div>
                  <div className='products'>
-                 <Carosuel>
-                <img className='' alt='' src={}/> 
+                 <Carousel>
+                {/* <img className='' alt='' src={}/> 
                 <img className='' alt='' src={}/>
                 <img className='' alt='' src={}/>  
-                <img className='' alt='' src={}/> 
-                </Carosuel>
+                <img className='' alt='' src={}/>  */}
+                </Carousel>
                 </div>
             </div>
         )
