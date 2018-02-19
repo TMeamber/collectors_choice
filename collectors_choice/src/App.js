@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div className="Nbar">
+      <div className="NBar">
         <div className="Hamburger_Button">
           <div className="menu-button" onClick={this.handleToggle}>
             <div className="Hamburger" />
@@ -42,19 +42,24 @@ class App extends Component {
             onRequestChange={open => this.setState({ open })}
             containerClassName="drawer"
           >
-            <a href="#home">
+            <a href="/">
               <MenuItem onClick={this.handleClose} className="menu-item">
                 Home
               </MenuItem>
             </a>
-            <a href="#about">
+            <a href="/About">
               <MenuItem onClick={this.handleClose} className="menu-item">
                 About Us
               </MenuItem>
             </a>
-            <a href="#contact">
+            <a href="/Contact">
               <MenuItem onClick={this.handleClose} className="menu-item">
                 Contact Us
+              </MenuItem>
+            </a>
+            <a href="/Products">
+              <MenuItem onClick={this.handleClose} className="menu-item">
+                Products
               </MenuItem>
             </a>
           </Drawer>

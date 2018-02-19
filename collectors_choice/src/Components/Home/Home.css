@@ -1,6 +1,5 @@
 .CC_Logo {
     height: 350px;
-    margin-left: 50px;
     display: flex;
     margin: auto;
     width: 42%;
@@ -9,4 +8,12 @@
 
 .Choice_wo {
     height: 500px;
+}
+
+@media (max-width: 1000px){
+    .CC_Logo{
+        position: absolute;
+        padding-top: 210px;
+        height: 150px;
+    }
 }

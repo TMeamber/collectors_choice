@@ -52,12 +52,9 @@ body {
   text-transform: uppercase;
     }
     
-    .Nbar{
-      display: none;
-    }
 
     @media (max-width: 1000px){
-      .Nbar {
+      .NBar {
         background-color: transparent;
         position: fixed;
         width: 100%;
@@ -82,7 +79,7 @@ body {
       .Hamburger {
         width: 35px;
         height: 1px;
-        background-color: black;
+        background-color: white;
         margin: 8px 0;
       }
       
@@ -92,7 +89,7 @@ body {
       }
       
       .menu-item {
-        color:white !important;
+        color:black !important;
         text-transform: uppercase;
         text-align: left;
       }
